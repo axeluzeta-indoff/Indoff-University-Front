@@ -1,0 +1,257 @@
+{ 
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "courses": "Cursos",
+    "instructors": "Instructores",
+    "register": "Registro",
+    "contact": "Contacto",
+    "login": "Acceder",
+    "open_menu": "Abrir menú"
+  },
+  "hero": {
+    "title": "Educación profesional\ncertificada",
+    "body": "Indoff University S.C. fue creada en 2018 por Indoff de México, una empresa con más de 30 años de experiencia en la implementación de proyectos de integración de ingeniería en el área de manejo de materiales, que ha capacitado a su equipo de trabajo como instructores para transmitir su conocimiento.",
+    "cta": "Ver Cursos",
+    "unmute": "Activar Sonido",
+    "unmute_aria": "Activar sonido del video",
+    "video_aria": "Video de portada"
+  },
+  "why": {
+    "title": "¿Por qué elegir Indoff University?",
+    "expert_instructors": {
+      "title": "Instructores Expertos",
+      "description": "Contamos con un equipo de profesionales altamente capacitados."
+    },
+    "innovative_classes": {
+      "title": "Clases Innovadoras",
+      "description": "Programas diseñados para el éxito."
+    },
+    "certification": {
+      "title": "Certificación",
+      "description": "Al finalizar obtendrás un certificado DC-3 con validez académica y profesional."
+    }
+  },
+  "carousel": {
+    "credentials": {
+      "title": "Credenciales",
+      "subtitle": "Cursos inscritos en STPS y emitimos constancia DC-3.",
+      "dc5": {
+        "title": "Acuse de Recibo DC5",
+        "body": "Documento que certifica el registro de Indoff University ante las autoridades correspondientes.",
+        "img_alt": "Acuse de Recibo DC5"
+      },
+      "stps": {
+        "title": "Registro STPS",
+        "body": "Certificado oficial que acredita a Indoff University como una institución registrada ante la STPS.",
+        "img_alt": "Registro STPS"
+      }
+    },
+    "about": {
+      "mission": {
+        "title": "Nuestra Misión",
+        "body": "Nuestra misión es fortalecer el capital humano de la industria manufacturera en Tijuana, B.C. mediante formación de alta calidad en seguridad, ingeniería, recursos humanos y optimización de procesos. Promovemos la excelencia operativa, el cumplimiento normativo y la innovación para un crecimiento sostenible.",
+        "img_alt": "Misión"
+      },
+      "vision": {
+        "title": "Nuestra Visión",
+        "body": "Para 2029, seremos líderes en capacitación industrial en Tijuana, B.C., siendo un puente entre las necesidades del sector y las mejores prácticas globales. Impulsamos un ecosistema seguro, eficiente y sostenible que fortalezca la competitividad y la responsabilidad social de las empresas manufactureras.",
+        "img_alt": "Visión"
+      }
+    },
+    "common": {
+      "view_pdf": "Ver PDF",
+      "download": "Descargar",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "go_to_slide": "Ir al slide {{n}}"
+    }
+  },
+  "cursos": {
+    "title": "Nuestros Cursos",
+    "subtitle": "Impulsa tu carrera profesional con nuestros cursos virtuales diseñados para llevarte al siguiente nivel.",
+    "items": {
+      "nom006": {
+        "title": "Aplicación de NOM-006-STPS-2023 para Seguridad de Racks",
+        "desc": "Aprende a aplicar la NOM-006-STPS-2023 para asegurar que tus racks sean seguros, cumplan con la normativa y estén libres de accidentes.",
+        "alt": "Seguridad en racks",
+        "lang": "Inglés"
+      },
+      "comunicacion": {
+        "title": "Curso de Comunicación Asertiva",
+        "desc": "Estrategias para liderar conversaciones, manejar conflictos y construir relaciones laborales más sólidas.",
+        "alt": "Comunicación asertiva",
+        "lang": "Inglés"
+      },
+      "tresR": {
+        "title": "Curso 3R: reclutamiento, retención y reconocimiento",
+        "desc": "Gestión del talento con estrategias innovadoras que optimizan el reclutamiento, fortalecen la retención y valoran el esfuerzo.",
+        "alt": "Gestión de talento",
+        "lang": "Español"
+      }
+    }
+  },
+  "courseCard": {
+    "language_label": "Idioma del curso:",
+    "cta": "Registrarme"
+  },
+  "why_courses": {
+    "title": "¿Por qué elegir nuestros cursos?",
+    "items": {
+      "personalizado": {
+        "title": "Personalizado",
+        "desc": "Adaptamos el contenido a las necesidades de los estudiantes para garantizar el mejor aprendizaje."
+      },
+      "material": {
+        "title": "Material Exclusivo",
+        "desc": "Recursos que te ayudarán a profundizar en el contenido y mejorar tu aprendizaje."
+      },
+      "certificacion": {
+        "title": "Certificación",
+        "desc": "Una certificación que respalda tu conocimiento y habilidades adquiridas."
+      }
+    }
+  },
+  "instructores": {
+    "title": "Conoce a nuestro equipo",
+    "subtitle": "Profesionales certificados, con experiencia real en la industria.",
+    "featured": {
+      "role": "Rector & Fundador",
+      "bullets": [
+        "Se unió a Indoff en 1994, fundó Indoff de México en 2008 e Indoff University en 2018.",
+        "Estudios en California State University y University of Wisconsin, Madison.",
+        "Reconocido por la STPS (Secretaría del Trabajo y Previsión Social).",
+        "37+ años de experiencia en automatización, robótica y manejo de materiales.",
+        "Mentor de más de 100 estudiantes de UTT, UABC, TEC y CETYS."
+      ]
+    },
+    "others": {
+      "victoria": {
+        "role": "Instructora",
+        "bullets": [
+          "Especialista en Lean Manufacturing y productividad.",
+          "12+ años de experiencia en industria manufacturera.",
+          "Egresada de CETYS, cursa MBA."
+        ]
+      },
+      "carlos": {
+        "role": "Instructor",
+        "bullets": [
+          "Ingeniero industrial (Univ. de Sonora).",
+          "20+ años en la industria; 16 enfocados en seguridad.",
+          "Gerente de proyectos en Indoff de México."
+        ]
+      },
+      "ulises": {
+        "role": "Instructor",
+        "bullets": [
+          "8+ años de experiencia en procesos de soldadura y manufactura metálica.",
+          "Competente en normativas y técnicas avanzadas."
+        ]
+      },
+      "kassandra": {
+        "role": "Instructora",
+        "bullets": [
+          "Diseño gráfico con 8+ años de experiencia.",
+          "Desarrolladora de contenido para cursos presenciales y en línea."
+        ]
+      },
+      "ana": {
+        "role": "Instructora",
+        "bullets": [
+          "Lic. en Comunicación por UABC.",
+          "Asesora en estrategias de retención y cultura organizacional."
+        ]
+      },
+      "aldo": {
+        "role": "Instructor",
+        "bullets": [
+          "Lic. en Negocios Internacionales por UABC.",
+          "Certificado como instructor ante STPS.",
+          "Especialista en Servicio al Cliente (4+ años de experiencia)."
+        ]
+      },
+      "jonathan": {
+        "role": "Instructor",
+        "bullets": [
+          "Ing. Electromecánico por TecNM.",
+          "Especialista en proyectos electromecánicos (6+ años).",
+          "Miembro de Indoff de México en proyectos de manejo de material."
+        ]
+      },
+      "priscila": {
+        "role": "Instructora",
+        "bullets": [
+          "Ing. en Ciencias Computacionales por CETYS.",
+          "Certificada por STPS.",
+          "Conocimiento avanzado en robótica y electrónica."
+        ]
+      }
+    }
+  },
+  "contacto": {
+    "title": "Envíanos un mensaje",
+    "form_aria": "Formulario de contacto",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando…",
+    "placeholders": {
+      "name": "Nombre completo",
+      "email": "alguien@dominio.com",
+      "subject": "Asunto",
+      "message": "Cuéntanos en qué podemos ayudarte…"
+    },
+    "errors": {
+      "required_all": "Todos los campos son obligatorios.",
+      "invalid_email": "Correo inválido.",
+      "spam_detected": "Spam detectado."
+    },
+    "feedback": {
+      "sent": "Mensaje enviado. Te contactaremos pronto.",
+      "fail": "No se pudo enviar. Intenta de nuevo."
+    }
+  },
+  "footer": {
+    "tagline": "Capacitación profesional y desarrollo continuo para equipos de alto desempeño.",
+    "contact": {
+      "title": "Contáctanos",
+      "location_label": "Ubicación:",
+      "location_value": "Tijuana, BAJA CALIFORNIA",
+      "phone_label": "Teléfono:",
+      "email_label": "Email:",
+      "hours_label": "Horario de Atención:",
+      "hours_value": "Lunes a Viernes, 8:00 AM - 6:00 PM"
+    },
+    "links": {
+      "title": "Enlaces",
+      "home": "Inicio",
+      "about": "Nosotros",
+      "courses": "Cursos",
+      "instructors": "Instructores",
+      "register": "Registro",
+      "contact": "Contacto"
+    },
+    "bottom": {
+      "rights": "Todos los derechos reservados.",
+      "terms": "Términos",
+      "privacy": "Privacidad",
+      "support": "Soporte"
+    }
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "email_label": "Correo electrónico",
+    "email_placeholder": "tu@correo.com",
+    "password_label": "Contraseña",
+    "password_placeholder": "Ingresa tu contraseña",
+    "submit": "Entrar",
+    "loading": "Ingresando...",
+    "success": "Inicio de sesión exitoso.",
+    "error": "No se pudo iniciar sesión. Inténtalo de nuevo.",
+    "no_account": "¿No tienes cuenta?",
+    "register_link": "Regístrate aquí"
+  }
+}

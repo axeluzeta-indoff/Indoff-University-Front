@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation, Trans } from "react-i18next";
 import YouTube, { type YouTubeEvent, type YouTubeProps } from "react-youtube";
 
 const YT_STATE = { ENDED: 0 } as const;
 
 export default function HeroSection() {
+  const { t } = useTranslation();
   const containerRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YouTubeEvent["target"] | null>(null);
   const [overlayVisible, setOverlayVisible] = useState(true);
@@ -56,7 +58,7 @@ export default function HeroSection() {
         <div
           ref={containerRef}
           className="relative w-full overflow-hidden rounded-lg shadow-xl"
-          aria-label="Video de portada"
+          aria-label={t("hero.video_aria")}
         >
           <div className="aspect-video relative">
             <YouTube
@@ -88,9 +90,9 @@ export default function HeroSection() {
               <button
                 onClick={handleUnmute}
                 className="bg-orange-500 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-orange-600 active:scale-95 transition-all shadow-lg"
-                aria-label="Activar sonido del video"
+                aria-label={t("hero.unmute_aria")}
               >
-                Activar Sonido
+                {t("hero.unmute")}
               </button>
             </div>
           )}
@@ -98,16 +100,25 @@ export default function HeroSection() {
 
         {/* Texto */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight" style={{ color: "#FF6600" }}>
-            Educación profesional<br />certificada
+          <h1
+            className="text-4xl md:text-5xl font-extrabold leading-tight whitespace-pre-line"
+            style={{ color: "#FF6600" }}
+          >
+            {t("hero.title")}
           </h1>
+
           <p className="mt-6 text-gray-800 text-base leading-7">
-            Indoff University S.C. fue creada en 2018 por Indoff de México, una empresa con más de 30 años de
-            experiencia en la implementación de proyectos de integración de ingeniería en el área de manejo de
-            materiales, que ha capacitado a su equipo de trabajo como instructores para transmitir su conocimiento.
+            <Trans i18nKey="hero.body">
+              {/* Fallback por si faltan traducciones */}
+              Indoff University S.C. fue creada en 2018 por Indoff de México…
+            </Trans>
           </p>
-          <a href="/#cursos" className="mt-6 inline-block rounded-md bg-black text-white px-5 py-2 hover:bg-gray-900 transition">
-            Ver Cursos
+
+          <a
+            href="/#cursos"
+            className="mt-6 inline-block rounded-md bg-black text-white px-5 py-2 hover:bg-gray-900 transition"
+          >
+            {t("hero.cta")}
           </a>
         </div>
       </div>

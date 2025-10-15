@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "instructors": "Instructors",
+    "register": "Register",
+    "contact": "Contact",
+    "login": "Sign in",
+    "open_menu": "Open menu"
+  },
+  "hero": {
+    "title": "Certified\nprofessional education",
+    "body": "Indoff University S.C. was founded in 2018 by Indoff de México, a company with over 30 years of experience implementing engineering integration projects in material handling, whose team has been trained as instructors to share their knowledge.",
+    "cta": "See Courses",
+    "unmute": "Enable Sound",
+    "unmute_aria": "Enable video sound",
+    "video_aria": "Hero video"
+  },
+   "why": {
+    "title": "Why choose Indoff University?",
+    "expert_instructors": {
+      "title": "Expert Instructors",
+      "description": "We have a team of highly trained professionals."
+    },
+    "innovative_classes": {
+      "title": "Innovative Classes",
+      "description": "Programs designed for success."
+    },
+    "certification": {
+      "title": "Certification",
+      "description": "Upon completion, you’ll receive a DC-3 certificate with academic and professional validity."
+    }
+  },
+  "carousel": {
+    "credentials": {
+      "title": "Credentials",
+      "subtitle": "Courses registered with the STPS; we issue DC-3 certificates.",
+      "dc5": {
+        "title": "DC5 Receipt Acknowledgment",
+        "body": "Document certifying Indoff University’s registration before the corresponding authorities.",
+        "img_alt": "DC5 Receipt Acknowledgment"
+      },
+      "stps": {
+        "title": "STPS Registration",
+        "body": "Official certificate accrediting Indoff University as an institution registered with the STPS.",
+        "img_alt": "STPS Registration"
+      }
+    },
+    "about": {
+      "mission": {
+        "title": "Our Mission",
+        "body": "Our mission is to strengthen the human capital of the manufacturing industry in Tijuana, B.C. through high-quality training in safety, engineering, human resources, and process optimization. We promote operational excellence, regulatory compliance, and innovation for sustainable growth.",
+        "img_alt": "Mission"
+      },
+      "vision": {
+        "title": "Our Vision",
+        "body": "By 2029, we will be leaders in industrial training in Tijuana, B.C., bridging sector needs with global best practices. We foster a safe, efficient, and sustainable ecosystem that strengthens competitiveness and social responsibility.",
+        "img_alt": "Vision"
+      }
+    },
+    "common": {
+      "view_pdf": "View PDF",
+      "download": "Download",
+      "prev": "Previous",
+      "next": "Next",
+      "go_to_slide": "Go to slide {{n}}"
+    }
+  },
+  "cursos": {
+    "title": "Our Courses",
+    "subtitle": "Boost your career with our online courses designed to take you to the next level.",
+    "items": {
+      "nom006": {
+        "title": "Applying NOM-006-STPS-2023 for Rack Safety",
+        "desc": "Learn to apply NOM-006-STPS-2023 to ensure your racks are safe, compliant, and accident-free.",
+        "alt": "Rack safety",
+        "lang": "English"
+      },
+      "comunicacion": {
+        "title": "Assertive Communication",
+        "desc": "Strategies to lead conversations, handle conflicts, and build stronger workplace relationships.",
+        "alt": "Assertive communication",
+        "lang": "English"
+      },
+      "tresR": {
+        "title": "3R Course: recruiting, retention and recognition",
+        "desc": "Talent management with innovative strategies that optimize recruiting, strengthen retention, and value effort.",
+        "alt": "Talent management",
+        "lang": "Spanish"
+      }
+    }
+  },
+  "courseCard": {
+    "language_label": "Course language:",
+    "cta": "Register"
+  },
+  "why_courses": {
+    "title": "Why choose our courses?",
+    "items": {
+      "personalizado": {
+        "title": "Personalized",
+        "desc": "We tailor the content to students’ needs to ensure the best learning experience."
+      },
+      "material": {
+        "title": "Exclusive Material",
+        "desc": "Resources designed to help you dive deeper into the topics and enhance your learning."
+      },
+      "certificacion": {
+        "title": "Certification",
+        "desc": "A certification that validates your knowledge and acquired skills."
+      }
+    }
+  },
+  "instructores": {
+    "title": "Meet our team",
+    "subtitle": "Certified professionals with real industry experience.",
+    "featured": {
+      "role": "Rector & Founder",
+      "bullets": [
+        "Joined Indoff in 1994, founded Indoff de México in 2008 and Indoff University in 2018.",
+        "Studied at California State University and University of Wisconsin, Madison.",
+        "Recognized by the STPS (Secretariat of Labor and Social Welfare).",
+        "37+ years of experience in automation, robotics, and material handling.",
+        "Mentor to more than 100 students from UTT, UABC, TEC and CETYS."
+      ]
+    },
+    "others": {
+      "victoria": {
+        "role": "Instructor",
+        "bullets": [
+          "Specialist in Lean Manufacturing and productivity.",
+          "12+ years of experience in the manufacturing industry.",
+          "CETYS graduate, currently pursuing an MBA."
+        ]
+      },
+      "carlos": {
+        "role": "Instructor",
+        "bullets": [
+          "Industrial engineer (University of Sonora).",
+          "20+ years in industry; 16 focused on safety.",
+          "Project manager at Indoff de México."
+        ]
+      },
+      "ulises": {
+        "role": "Instructor",
+        "bullets": [
+          "8+ years of experience in welding processes and metal manufacturing.",
+          "Proficient in standards and advanced techniques."
+        ]
+      },
+      "kassandra": {
+        "role": "Instructor",
+        "bullets": [
+          "Graphic designer with 8+ years of experience.",
+          "Course content developer for in-person and online training."
+        ]
+      },
+      "ana": {
+        "role": "Instructor",
+        "bullets": [
+          "B.A. in Communication from UABC.",
+          "Advisor in retention strategies and organizational culture."
+        ]
+      },
+      "aldo": {
+        "role": "Instructor",
+        "bullets": [
+          "B.A. in International Business from UABC.",
+          "Certified as an STPS instructor.",
+          "Customer Service specialist (4+ years of experience)."
+        ]
+      },
+      "jonathan": {
+        "role": "Instructor",
+        "bullets": [
+          "Electromechanical Engineer from TecNM.",
+          "Specialist in electromechanical projects (6+ years).",
+          "Member of Indoff de México in material handling projects."
+        ]
+      },
+      "priscila": {
+        "role": "Instructor",
+        "bullets": [
+          "B.S. in Computer Science from CETYS.",
+          "STPS certified.",
+          "Advanced knowledge in robotics and electronics."
+        ]
+      }
+    }
+  },
+  "contacto": {
+    "title": "Send us a message",
+    "form_aria": "Contact form",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending…",
+    "placeholders": {
+      "name": "Full name",
+      "email": "someone@example.com",
+      "subject": "Subject",
+      "message": "Tell us how we can help…"
+    },
+    "errors": {
+      "required_all": "All fields are required.",
+      "invalid_email": "Invalid email.",
+      "spam_detected": "Spam detected."
+    },
+    "feedback": {
+      "sent": "Message sent. We’ll contact you soon.",
+      "fail": "Could not send. Please try again."
+    }
+  },
+   "footer": {
+    "tagline": "Professional training and continuous development for high-performance teams.",
+    "contact": {
+      "title": "Contact us",
+      "location_label": "Location:",
+      "location_value": "Tijuana, BAJA CALIFORNIA",
+      "phone_label": "Phone:",
+      "email_label": "Email:",
+      "hours_label": "Business Hours:",
+      "hours_value": "Mon–Fri, 8:00 AM – 6:00 PM"
+    },
+    "links": {
+      "title": "Links",
+      "home": "Home",
+      "about": "About",
+      "courses": "Courses",
+      "instructors": "Instructors",
+      "register": "Register",
+      "contact": "Contact"
+    },
+    "bottom": {
+      "rights": "All rights reserved.",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "support": "Support"
+    }
+  },
+  "login": {
+    "title": "Sign in",
+    "email_label": "Email address",
+    "email_placeholder": "you@example.com",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "submit": "Sign in",
+    "loading": "Signing in...",
+    "success": "Login successful.",
+    "error": "Login failed. Please try again.",
+    "no_account": "Don’t have an account?",
+    "register_link": "Register here"
+  }
+}

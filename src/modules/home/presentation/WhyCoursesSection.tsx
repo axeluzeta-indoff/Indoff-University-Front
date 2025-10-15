@@ -1,30 +1,34 @@
+import { useTranslation } from "react-i18next";
 import FeatureCard from "../../../components/FeatureCard";
 
 export default function WhyCoursesSection() {
+  const { t } = useTranslation();
+
   const items = [
     {
-      title: "Personalizado",
-      description:
-        "Adaptamos el contenido a las necesidades de los estudiantes para garantizar el mejor aprendizaje.",
+      title: t("why_courses.items.personalizado.title"),
+      description: t("why_courses.items.personalizado.desc"),
     },
     {
-      title: "Material Exclusivo",
-      description:
-        "Recursos que te ayudarán a profundizar en el contenido y mejorar tu aprendizaje.",
+      title: t("why_courses.items.material.title"),
+      description: t("why_courses.items.material.desc"),
     },
     {
-      title: "Certificación",
-      description:
-        "Una certificación que respalda tu conocimiento y habilidades adquiridas.",
+      title: t("why_courses.items.certificacion.title"),
+      description: t("why_courses.items.certificacion.desc"),
     },
   ];
 
   return (
     <section className="scroll-mt-24 py-12">
       <div className="mx-auto max-w-7xl px-4">
-        <h3 className="text-center text-2xl md:text-3xl font-extrabold mb-6" style={{ color: "#FF6600" }}>
-          ¿Por qué elegir nuestros cursos?
+        <h3
+          className="text-center text-2xl md:text-3xl font-extrabold mb-6"
+          style={{ color: "#FF6600" }}
+        >
+          {t("why_courses.title")}
         </h3>
+
         <div className="grid md:grid-cols-3 gap-6">
           {items.map((it) => (
             <FeatureCard key={it.title} title={it.title} description={it.description} />
