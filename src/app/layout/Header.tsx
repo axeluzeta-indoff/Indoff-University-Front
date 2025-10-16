@@ -57,9 +57,6 @@ export default function Header() {
           <a href="/#instructores" className="hover:text-orange-500 transition-colors">
             {t("nav.instructors")}
           </a>
-          <a href="/#registro" className="hover:text-orange-500 transition-colors">
-            {t("nav.register")}
-          </a>
           <a href="/#contacto" className="hover:text-orange-500 transition-colors">
             {t("nav.contact")}
           </a>

@@ -1,0 +1,29 @@
+RewriteEngine On
+RewriteBase /
+
+# 1) Fuerza HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2) Fuerza dominio sin "www"
+RewriteCond %{HTTP_HOST} ^www\.indoffedu\.com$ [NC]
+RewriteRule ^(.*)$ https://indoffedu.com/$1 [L,R=301]
+
+# 3) Excepciones: robots y sitemap tal cual
+RewriteRule ^(robots\.txt|sitemap\.xml)$ - [L]
+
+# 4) Legacy → redirección permanente a la home
+RewriteCond %{THE_REQUEST} \s/(index|default)\.php[\s?] [NC]
+RewriteRule ^(?:index|default)\.php$ / [R=301,L]
+RedirectMatch 301 ^/cgi-bin/.*$ /
+
+# 5) Si el recurso existe (archivo o dir), sírvelo
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 6) Fallback SPA (React/Vite)
+RewriteRule ^ index.html [L]
+
+# 7) MIME XML correcto
+AddType application/xml .xml

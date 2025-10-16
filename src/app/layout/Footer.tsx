@@ -86,7 +86,6 @@ export default function Footer() {
             <li><a href="/#nosotros" className="hover:text-orange-500 transition">{t("footer.links.about")}</a></li>
             <li><a href="/#cursos" className="hover:text-orange-500 transition">{t("footer.links.courses")}</a></li>
             <li><a href="/#instructores" className="hover:text-orange-500 transition">{t("footer.links.instructors")}</a></li>
-            <li><a href="/#registro" className="hover:text-orange-500 transition">{t("footer.links.register")}</a></li>
             <li><a href="/#contacto" className="hover:text-orange-500 transition">{t("footer.links.contact")}</a></li>
           </ul>
         </div>

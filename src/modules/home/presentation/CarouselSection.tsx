@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import type { EmblaCarouselType } from "embla-carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { useTranslation } from "react-i18next";
+import { uploads } from "../../../utils/constants";
 
 export default function CarouselSection() {
   const { t } = useTranslation();
@@ -68,7 +69,7 @@ export default function CarouselSection() {
                       {t("carousel.about.mission.body")}
                     </p>
                     <img
-                      src="/images/Mision.png"
+                      src={uploads("Mision.webp")}
                       alt={t("carousel.about.mission.img_alt")}
                       className="mt-4 w-full h-48 object-contain rounded-md"
                       loading="lazy"
@@ -84,7 +85,7 @@ export default function CarouselSection() {
                       {t("carousel.about.vision.body")}
                     </p>
                     <img
-                      src="/images/Vision.png"
+                      src={uploads("Vision.webp")}
                       alt={t("carousel.about.vision.img_alt")}
                       className="mt-4 w-full h-48 object-contain rounded-md"
                       loading="lazy"
@@ -101,7 +102,7 @@ export default function CarouselSection() {
                   {/* Card 1 */}
                   <div className="rounded-lg bg-white shadow-[0_10px_25px_rgba(0,0,0,0.08)] p-6">
                     <img
-                      src="/images/acusedc5.png"
+                      src={uploads("dc5.webp")}
                       alt={t("carousel.credentials.dc5.img_alt")}
                       className="mx-auto mb-4 h-40 object-contain"
                       loading="lazy"
@@ -114,7 +115,7 @@ export default function CarouselSection() {
                     </p>
                     <div className="flex items-center justify-center gap-3">
                       <a
-                        href="/pdfs/ACUSE_DE_RECIBO_DC5_INDOFF_UNIVERSITY.pdf"
+                        href={uploads("pdfs/ACUSE_DE_RECIBO_DC5_INDOFF_UNIVERSITY.pdf")}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block rounded-md bg-black text-white px-4 py-2 hover:bg-gray-900 transition"
@@ -122,7 +123,7 @@ export default function CarouselSection() {
                         {t("carousel.common.view_pdf")}
                       </a>
                       <a
-                        href="/pdfs/ACUSE_DE_RECIBO_DC5_INDOFF_UNIVERSITY.pdf"
+                        href={uploads("pdfs/ACUSE_DE_RECIBO_DC5_INDOFF_UNIVERSITY.pdf")}
                         download="ACUSE_DE_RECIBO_DC5_INDOFF_UNIVERSITY.pdf"
                         className="inline-block rounded-md border border-black text-black px-4 py-2 hover:bg-black hover:text-white transition"
                       >
@@ -134,7 +135,7 @@ export default function CarouselSection() {
                   {/* Card 2 */}
                   <div className="rounded-lg bg-white shadow-[0_10px_25px_rgba(0,0,0,0.08)] p-6">
                     <img
-                      src="/images/STPSIU.png"
+                      src={uploads("STPS.webp")}
                       alt={t("carousel.credentials.stps.img_alt")}
                       className="mx-auto mb-4 h-40 object-contain"
                       loading="lazy"
@@ -147,7 +148,7 @@ export default function CarouselSection() {
                     </p>
                     <div className="flex items-center justify-center gap-3">
                       <a
-                        href="/pdfs/REGISTRO_STPS_INDOFF_UNIVERSITY.pdf"
+                        href={uploads("pdfs/REGISTRO_STPS_INDOFF_UNIVERSITY.pdf")}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block rounded-md bg-black text-white px-4 py-2 hover:bg-gray-900 transition"
@@ -155,7 +156,7 @@ export default function CarouselSection() {
                         {t("carousel.common.view_pdf")}
                       </a>
                       <a
-                        href="/pdfs/REGISTRO_STPS_INDOFF_UNIVERSITY.pdf"
+                        href={uploads("pdfs/REGISTRO_STPS_INDOFF_UNIVERSITY.pdf")}
                         download="REGISTRO_STPS_INDOFF_UNIVERSITY.pdf"
                         className="inline-block rounded-md border border-black text-black px-4 py-2 hover:bg-black hover:text-white transition"
                       >

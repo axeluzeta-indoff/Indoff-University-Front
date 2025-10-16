@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import CourseCard from "../../../components/CourseCard";
+import { uploads } from "../../../utils/constants";
 
 export default function CoursesSection() {
   const { t } = useTranslation();
@@ -7,21 +8,21 @@ export default function CoursesSection() {
   // Datos estáticos mock, textos por i18n
   const courses = [
     {
-      imageUrl: "https://picsum.photos/seed/iu-c1/640/360",
+      imageUrl: uploads("cursos/racks.webp"),
       imageAlt: t("cursos.items.nom006.alt"),
       title: t("cursos.items.nom006.title"),
       description: t("cursos.items.nom006.desc"),
       language: t("cursos.items.nom006.lang"),
     },
     {
-      imageUrl: "https://picsum.photos/seed/iu-c2/640/360",
+      imageUrl: uploads("cursos/asertiva.webp"),
       imageAlt: t("cursos.items.comunicacion.alt"),
       title: t("cursos.items.comunicacion.title"),
       description: t("cursos.items.comunicacion.desc"),
       language: t("cursos.items.comunicacion.lang"),
     },
     {
-      imageUrl: "https://picsum.photos/seed/iu-c3/640/360",
+      imageUrl: uploads("cursos/3R.webp"),
       imageAlt: t("cursos.items.tresR.alt"),
       title: t("cursos.items.tresR.title"),
       description: t("cursos.items.tresR.desc"),

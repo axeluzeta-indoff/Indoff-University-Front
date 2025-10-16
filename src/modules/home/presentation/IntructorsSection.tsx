@@ -1,6 +1,7 @@
 import InstructorFeatured from "../../../components/InstructorFeatured";
 import InstructorCard from "../../../components/IntructorCard";
 import { useTranslation } from "react-i18next";
+import { uploads } from "../../../utils/constants";
 
 type InstructorBase = {
   id: string;
@@ -16,7 +17,7 @@ export default function InstructorsSection() {
   // Destacado (solo traducimos role y bullets)
   const featured: InstructorBase & { role: string; bullets: string[] } = {
     id: "steve",
-    photo: "/images/steve_bloom.jpg",
+    photo: uploads("instructores/Steve.webp"),
     name: "Ing. Steve D. Bloom",
     email: "steve.bloom@indoff.com",
     phone: "(664) 412 2989",
@@ -28,7 +29,7 @@ export default function InstructorsSection() {
   const others: Array<InstructorBase & { role: string; bullets: string[] }> = [
     {
       id: "victoria",
-      photo: "/images/victoria_bloom.jpg",
+      photo: uploads("instructores/Vicky.webp"),
       name: "Ing. Victoria Bloom",
       email: "victoria.bloom@indoff.com",
       phone: "(663) 109 8054",
@@ -37,7 +38,7 @@ export default function InstructorsSection() {
     },
     {
       id: "carlos",
-      photo: "/images/carlos_calles.jpg",
+      photo: uploads("instructores/Carlos.webp"),
       name: "Ing. Carlos Calles",
       email: "carlos.calles@indoff.com",
       phone: "(664) 279 5407",
@@ -46,7 +47,7 @@ export default function InstructorsSection() {
     },
     {
       id: "ulises",
-      photo: "/images/ulises_castillo.jpg",
+      photo: uploads("instructores/Ulises.webp"),
       name: "Ing. Ulises Castillo",
       email: "ulises.castillo@indoff.com",
       phone: "(618) 731 3095",
@@ -55,7 +56,7 @@ export default function InstructorsSection() {
     },
     {
       id: "kassandra",
-      photo: "/images/kassandra_escobar.jpg",
+      photo: uploads("instructores/Kass.webp"),
       name: "Lic. Kassandra Escobar",
       email: "kassandra.escobar@indoff.com",
       phone: "(664) 598 9920",
@@ -64,7 +65,7 @@ export default function InstructorsSection() {
     },
     {
       id: "ana",
-      photo: "/images/ana_gallegos.jpg",
+      photo: uploads("instructores/Ana.webp"),
       name: "Lic. Ana Gallegos",
       email: "ana.gallegos@indoff.com",
       phone: "(664) 123 39 90",
@@ -73,7 +74,7 @@ export default function InstructorsSection() {
     },
     {
       id: "aldo",
-      photo: "/images/aldo_romero.jpg",
+      photo: uploads("instructores/Aldo.webp"),
       name: "Lic. Aldo Romero",
       email: "aldo.romero@indoff.com",
       phone: "(664) 386 9506",
@@ -82,7 +83,7 @@ export default function InstructorsSection() {
     },
     {
       id: "jonathan",
-      photo: "/images/jonathan_hernandez.jpg",
+      photo: uploads("instructores/Jonathan.webp"),
       name: "Ing. Jonathan Hernandez",
       email: "jonathan.hernandez@indoff.com",
       phone: "(664) 812 4200",
@@ -91,7 +92,7 @@ export default function InstructorsSection() {
     },
     {
       id: "priscila",
-      photo: "/images/priscila_nieto.jpg",
+      photo: uploads("instructores/Priscila.webp"),
       name: "Ing. Priscila Nieto",
       email: "priscila.nieto@indoff.com",
       phone: "(664) 584 2921",

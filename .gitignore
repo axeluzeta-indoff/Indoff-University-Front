@@ -1,9 +1,6 @@
 # dependencias
 node_modules
 
-# build
-dist
-
 # entorno
 .env
 .env.local
