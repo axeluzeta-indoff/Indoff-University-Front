@@ -3,17 +3,10 @@ deployment:
     - /bin/echo "→ Deploying prebuilt dist (preserve & protect uploads, copy .htaccess from dist)"
 
     # Publicar dist → docroot preservando symlinks/dirs especiales
-    - /bin/rsync -a --delete \
-        --exclude='/uploads/' --filter='P uploads/' \
-        --exclude='/api/' --filter='P api/' \
-        --exclude='/.well-known/' --filter='P .well-known/' \
-        /home/indoff7/indoffuniversity_front/dist/ \
-        /home/indoff7/indoffuniversity.com/
+    - /bin/rsync -a --delete --exclude='/uploads/' --filter='P uploads/' --exclude='/api/' --filter='P api/' --exclude='/.well-known/' --filter='P .well-known/' /home/indoff7/indoffuniversity_front/dist/ /home/indoff7/indoffuniversity.com/
 
     # Asegurar .htaccess (salió del build y quedó en dist/)
-    - /bin/cp -f /home/indoff7/indoffuniversity_front/dist/.htaccess \
-              /home/indoff7/indoffuniversity.com/.htaccess
+    - /bin/cp -f /home/indoff7/indoffuniversity_front/dist/.htaccess /home/indoff7/indoffuniversity.com/.htaccess
 
     # Crear el symlink /uploads → ../uploads_university si no existe
-    - /bin/bash -lc '[ -L /home/indoff7/indoffuniversity.com/uploads ] \
-        || ln -s ../uploads_university /home/indoff7/indoffuniversity.com/uploads'
+    - /bin/bash -lc '[ -L /home/indoff7/indoffuniversity.com/uploads ] || ln -s ../uploads_university /home/indoff7/indoffuniversity.com/uploads'
