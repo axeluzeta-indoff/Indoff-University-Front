@@ -9,9 +9,16 @@
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://www.indoffedu.com/" />
 
-    <!-- Favicon & PWA basics -->
-    <link rel="icon" type="image/png" href="/logo.png" />
-    <link rel="apple-touch-icon" href="/logo.png" />
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Android/Chrome app icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+
+    <!-- PWA -->
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#FF6600" />
 
@@ -30,7 +37,7 @@
     <meta name="twitter:description" content="Capacitación profesional con instructores certificados y validez DC-3." />
     <meta name="twitter:image" content="https://www.indoffedu.com/og-image.jpg" />
 
-    <!-- Performance: preconnect a YouTube (hero) -->
+    <!-- Perf: preconnect para YouTube (hero) -->
     <link rel="preconnect" href="https://www.youtube-nocookie.com" />
     <link rel="preconnect" href="https://i.ytimg.com" />
 
@@ -41,10 +48,10 @@
       "@type": "Organization",
       "name": "Indoff University S.C.",
       "url": "https://www.indoffedu.com/",
-      "logo": "https://www.indoffedu.com/logo.png",
+      "logo": "https://www.indoffedu.com/android-chrome-512x512.png",
       "sameAs": [
         "https://www.linkedin.com/company/indoff-mexico/",
-        "https://www.youtube.com/@IndoffUniversity" 
+        "https://www.youtube.com/@IndoffUniversity"
       ]
     }
     </script>
@@ -61,12 +68,14 @@
       }
     }
     </script>
-    
     <script type="module" crossorigin src="/assets/index-DjQr6rtV.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-C_QwUFw7.css">
   </head>
   <body>
     <noscript>Necesitas habilitar JavaScript para usar este sitio.</noscript>
     <div id="root"></div>
+
+    <!-- En desarrollo Vite carga /src/main.tsx; en build, Vite inyecta /assets/*.js -->
   </body>
 </html>
+

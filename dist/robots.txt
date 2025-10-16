@@ -1,0 +1,8 @@
+# robots.txt — Indoff University S.C.
+User-agent: *
+Allow: /
+
+# No indexar PDFs (documentos de soporte)
+Disallow: /uploads/pdfs/
+
+Sitemap: https://www.indoffedu.com/sitemap.xml
