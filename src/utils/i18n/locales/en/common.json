@@ -87,6 +87,18 @@
         "desc": "Talent management with innovative strategies that optimize recruiting, strengthen retention, and value effort.",
         "alt": "Talent management",
         "lang": "Spanish"
+      },
+      "almacenamiento": {
+        "title": "Industrial Storage Systems",
+        "desc": "Essential concepts to operate and maintain safe and efficient storage systems.",
+        "alt": "Industrial storage systems course",
+        "lang": "Spanish"
+      },
+      "conveyors": {
+        "title": "Introduction to Conveyors and Safety",
+        "desc": "Basic principles of conveyor operation and key safety practices to prevent risks.",
+        "alt": "Conveyors and safety course",
+        "lang": "Spanish"
       }
     }
   },

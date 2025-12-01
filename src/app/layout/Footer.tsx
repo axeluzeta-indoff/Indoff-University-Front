@@ -33,7 +33,7 @@ export default function Footer() {
             </li>
             <li>
               <span className="font-semibold">{t("footer.contact.phone_label")}</span>{" "}
-              (664) 412 2989
+              (664) 102 4886
             </li>
             <li>
               <span className="font-semibold">{t("footer.contact.email_label")}</span>{" "}

@@ -88,6 +88,18 @@
         "desc": "Gestión del talento con estrategias innovadoras que optimizan el reclutamiento, fortalecen la retención y valoran el esfuerzo.",
         "alt": "Gestión de talento",
         "lang": "Español"
+      },
+      "almacenamiento": {
+        "title": "Sistemas de Almacenamiento Industrial",
+        "desc": "Conceptos esenciales para operar y mantener sistemas de almacenamiento seguros y eficientes.",
+        "alt": "Sistemas de almacenamiento industrial",
+        "lang": "Español"
+      },
+      "conveyors": {
+        "title": "Introducción a los Conveyors y Seguridad",
+        "desc": "Fundamentos de operación de conveyors y buenas prácticas para prevenir riesgos en planta.",
+        "alt": "Curso de conveyors y seguridad",
+        "lang": "Español"
       }
     }
   },

@@ -7,28 +7,47 @@ export default function CoursesSection() {
 
   // Datos estáticos mock, textos por i18n
   const courses = [
-    {
-      imageUrl: uploads("cursos/racks.webp"),
-      imageAlt: t("cursos.items.nom006.alt"),
-      title: t("cursos.items.nom006.title"),
-      description: t("cursos.items.nom006.desc"),
-      language: t("cursos.items.nom006.lang"),
-    },
-    {
-      imageUrl: uploads("cursos/asertiva.webp"),
-      imageAlt: t("cursos.items.comunicacion.alt"),
-      title: t("cursos.items.comunicacion.title"),
-      description: t("cursos.items.comunicacion.desc"),
-      language: t("cursos.items.comunicacion.lang"),
-    },
-    {
-      imageUrl: uploads("cursos/3R.webp"),
-      imageAlt: t("cursos.items.tresR.alt"),
-      title: t("cursos.items.tresR.title"),
-      description: t("cursos.items.tresR.desc"),
-      language: t("cursos.items.tresR.lang"),
-    },
-  ];
+  {
+    imageUrl: uploads("cursos/racks.webp"),
+    imageAlt: t("cursos.items.nom006.alt"),
+    title: t("cursos.items.nom006.title"),
+    description: t("cursos.items.nom006.desc"),
+    language: t("cursos.items.nom006.lang"),
+  },
+  {
+    imageUrl: uploads("cursos/asertiva.webp"),
+    imageAlt: t("cursos.items.comunicacion.alt"),
+    title: t("cursos.items.comunicacion.title"),
+    description: t("cursos.items.comunicacion.desc"),
+    language: t("cursos.items.comunicacion.lang"),
+  },
+  {
+    imageUrl: uploads("cursos/3R.webp"),
+    imageAlt: t("cursos.items.tresR.alt"),
+    title: t("cursos.items.tresR.title"),
+    description: t("cursos.items.tresR.desc"),
+    language: t("cursos.items.tresR.lang"),
+  },
+
+  // SISTEMAS DE ALMACENAMIENTO INDUSTRIAL
+  {
+    imageUrl: uploads("cursos/racks2.webp"), // ← nombre real del archivo
+    imageAlt: t("cursos.items.almacenamiento.alt"),
+    title: t("cursos.items.almacenamiento.title"),
+    description: t("cursos.items.almacenamiento.desc"),
+    language: t("cursos.items.almacenamiento.lang"),
+  },
+
+  // INTRODUCCIÓN A LOS CONVEYORS
+  {
+    imageUrl: uploads("cursos/conveyor.webp"), // ← nombre real del archivo
+    imageAlt: t("cursos.items.conveyors.alt"),
+    title: t("cursos.items.conveyors.title"),
+    description: t("cursos.items.conveyors.desc"),
+    language: t("cursos.items.conveyors.lang"),
+  },
+];
+
 
   return (
     <section id="cursos" className="scroll-mt-24 py-16">
